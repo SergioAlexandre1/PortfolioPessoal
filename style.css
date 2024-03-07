@@ -1,4 +1,10 @@
 div {
-     image-orientation: flip;
      text-align: center;
+     img {
+          border-radius: 50%;
+     }
+}
+
+footer {
+     
 }
