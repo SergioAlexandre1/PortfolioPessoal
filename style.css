@@ -120,8 +120,59 @@ section.especialidades
 {
      padding: 40px 4%;
 }
-.especialidades .especialidades-box
+section.especialidades .flex
+{
+     gap: 60px;
+}
+.especialidades-box
 {
      color: #fff;
      padding: 40px;
+     font-size: 22px;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     border: 2px solid #fff;
+}
+.especialidades-box h3
+{
+     font-size: 28px;
+     margin: 15px 15px;
+}
+.especialidades-box i
+{
+     font-size: 100px;
+     color: #00FF08;
+}
+.especialidades-box ul
+{
+     margin-top: 20px;
+     list-style: none;
+}
+/* ESTILO SOBRE*/
+.txt-sobre h2
+{
+     font-size: 34px;
+     text-align: center;
+}
+.txt-sobre p
+{
+     margin: 20px;
+     font-size: 20px;
+     text-align: justify;
+}
+.sobre .txt-sobre .btn-social button
+{
+     width: 60px;
+     height: 60px;
+     border-radius: 30px;
+     border: none;
+     background-color: #00FF08;
+     font-size: 30px;
+     cursor: pointer;
+     margin: 0 8px;
+}
+.btn-social button:hover
+{
+     transform: scale(1.05);
+     transition: .2s;
 }

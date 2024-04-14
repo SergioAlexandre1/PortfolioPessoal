@@ -24,13 +24,13 @@
             </div> <!-- LOGO-->
             <nav class="menu-desktop">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#Início">Início</a></li>
+                    <li><a href="#Especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
                 </ul>
             </nav>
             <div class="btn-contato">
-                <a href="#">
+                <a href="#redes-sociais">
                     <button>
                         Contato
                     </button>
@@ -39,7 +39,7 @@
         </div> <!-- INTERFACE-->
     </header>
     <main>
-        <section class="topo-do-site">
+        <section id="topo-do-site" class="topo-do-site">
             <div class="interface">
                 <div class="flex">
                     <div class="txt-topo-site">
@@ -50,7 +50,7 @@
                             <q><i>A esperança é o sonho do homem acordado.</i></q> - Aristóteles
                         </p>
                         <div class="btn-contato">
-                            <a href="#">
+                            <a href="#redes-sociais">
                                 <button>
                                     Entre em contato
                                 </button>
@@ -63,38 +63,54 @@
                 </div><!--FLEX-->
             </div><!--INTERFACE-->
         </section><!--TOPO DO SITE-->
-        <section class="Especialidades">
+        <section id="Especialidades" class="Especialidades">
             <div class="interface">
                 <h2 class="título">MINHAS <span>ESPECIALIDADES </span></h2>
                 <div class="flex">
                     <div class="especialidades-box">
                         <i class="bi bi-mortarboard-fill"></i>
                         <h3>QUALIFICAÇÕES ACADÊMICAS</h3>
-                        <p>
-                            Certificado de Conclusão do Ensino Médio pela Escola SEB <br>
-                            Certificado de Programação da CS50 pela Universidade Harvard
-                        </p>
+                        <ul>
+                            <li>Certificado de Conclusão do Ensino Médio pela Escola SEB</li>
+                            <li>Certificado de Programação da CS50 pela Universidade Harvard</li>
+                            <li>Certificado do Curso Unite pela Rocketseat</li>
+                        </ul>
                     </div><!--fechando especialidades-box-->
                     <div class="especialidades-box">
                         <i class="bi bi-eyeglasses"></i>
                         <h3>HABILIDADES</h3>
-                        <p>
-                            Facilidade em aprender novas coisas <br>
-                            Raciocínio lógico <br>
-                            Nivél médio em violão <br>
-                            Ótima dinâmica em grupo <br>
-                            Programação em C++ <br>
-                        </p>
+                        <ul>
+                            <li>Facilidade em aprender novas coisas</li>
+                            <li>Raciocínio lógico</li>
+                            <li>Nivél médio em violão</li>
+                            <li>Ótima dinâmica em grupo</li>
+                            <li>Programação em C++</li>
+                        </ul>
                     </div><!--fechando especialidades-box-->
                     <div class="especialidades-box">
                         <i class="bi bi-translate"></i>
                         <h3>LÍNGUAS</h3>
-                        <p>
-                            Português fluente <br>
-                            Inglês intermediário-avançado <br>
-                            Espanhol básico <br>
-                        </p>
+                        <ul>
+                            <li>Português fluente</li>
+                            <li>Inglês Nível B1</li>
+                            <li>Espanhol Nível A1</li>
+                        </ul>
                     </div><!--fechando especialidades-box-->
+                </div>
+            </div>
+        </section>
+        <section id="sobre" class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-sobre">
+                        <h2 style="color: #fff;">OLÁ, SOU SÉRGIO.</h2>
+                        <p style="color: #fff;">Nascido em 06/12/2000, em Vitória, ES, atualmente moro em Vila Velha. Cursei Engenharia Mecânica na UFES (2019-2023), porém não completei por motivos pessoais. Trabalhei em regime CLT no Carrefour do Shopping Vila Velha (2023), e atualmente estou na graduação do curso de Ciência da Computação na UVV. Sou sociável, perspicaz, dinâmico e proativo, sempre buscando novos conhecimentos e aprimorar minhas capacidades e habilidades.</p>
+                        <div id="redes-sociais" class="btn-social">
+                            <a href="https://www.instagram.com/gobbirebello/"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://br.linkedin.com/in/s%C3%A9rgio-alexandre-gobbi-rebello-434573283"><button><i class="bi bi-linkedin"></i></button></a>
+                            <a href="https://github.com/SergioAlexandre1"><button><i class="bi bi-github"></i></button></a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
